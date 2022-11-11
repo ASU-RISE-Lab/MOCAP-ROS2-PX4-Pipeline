@@ -1,9 +1,9 @@
 # Workspace Setup
 
 ## Table of Contents
-1. [PX4 - ROS2 Packages](##px4_ros2_packages)
-2. [VRPN - ROS2 Packages](##vrpn_ros2_packages)
-3. [MoCAP Setup and Configuration](##mocap_setup_and_configuration)
+1. [PX4 - ROS2 Packages](#px4---ros2-packages)
+2. [VRPN - ROS2 Packages](#vrpn---ros2-packages)
+3. [MoCAP Setup and Configuration](#mocap-setup-and-configuration)
 
 ## PX4 - ROS2 Packages
 

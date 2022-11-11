@@ -2,8 +2,8 @@
 Instrucions to Setup Raspberry Pi 4
 
 ## Table of Contents
-1. [UBUNTU 20.04 LTS Installation](##ubuntu_20.04_lts_installation)
-2. [WiFi Setup](##wifi_setup)
+1. [UBUNTU 20.04 LTS Installation](#ubuntu-2004-lts-installation)
+2. [WiFi Setup](#wifi-driver-setup)
 
 
 

@@ -3,11 +3,11 @@ A Repo to guide you through setup of Raspberry Pi to be used in MOCAP Space
 
 ## Table of Contents
 
-1. [Components List](##components_list)
+1. [Components List](README.md#components-list)
 2. [Raspberry Pi Setup](Raspbery_Pi_Setup.md)
 3. [Fast DDS and Fast-DDS-Gen Installation](Fast_DDS.md)
 4. [ROS 2 Foxy Installation](ROS_2.md)
-5. [Workspace Structure Overview](##workspace_structure_overview)
+5. [Workspace Structure Overview](#workspace-structure-overview)
 6. [Workspace Setup](Workspace_Setup.md)
 7. [Firmware Flashing and Pixhawk Setup](Firmware_Flash.md)
 8. [Launching the MicroRTPS Agent and VRPN Nodes](Launching.md)
