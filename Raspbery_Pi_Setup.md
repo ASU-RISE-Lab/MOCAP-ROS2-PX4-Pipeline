@@ -4,8 +4,7 @@ Instrucions to Setup Raspberry Pi 4
 ## Table of Contents
 1. [UBUNTU 20.04 LTS Installation](##ubuntu_20.04_lts_installation)
 2. [WiFi Setup](##wifi_setup)
-3. [Fast DDS and Fast-DDS-Gen Installation](Fast_DDS.md)
-4. [ROS 2 Foxy Installation](ROS_2.md)
+
 
 
 ## UBUNTU 20.04 LTS Installation 
@@ -30,11 +29,3 @@ We use the [rtl8812au](https://github.com/Aravind-Adhith/rtl8812au) driver for t
 - In the [Makefile](https://github.com/Aravind-Adhith/rtl8812au/blob/master/Makefile) we have changed the `CONFIG_PLATFORM_I386_PC = y` to `CONFIG_PLATFORM_ARM_RPI = y`. This is to build the driver for the Raspberry Pi.
 
 Continue with instrucion in the [Repo](https://github.com/Aravind-Adhith/rtl8812au) to install the driver.
-
-## Fast DDS and Fast-DDS-Gen Installation
-
-Follow the instructions in the [Fast DDS](Fast_DDS.md) page to install Fast DDS and Fast-DDS-Gen.
-
-## ROS 2 Foxy Installation
-
-Follow the instructions in the [Ros2 Foxy](ROS_2.md) page to install ROS 2 Foxy and setup the workspace.
