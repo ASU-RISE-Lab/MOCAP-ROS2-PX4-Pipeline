@@ -3,7 +3,7 @@ A Repo to guide you through setup of Raspberry Pi to be used in MOCAP Space
 
 ## Table of Contents
 
-1. [Components List](https://github.com/Aravind-Adhith/RASPI_ROS2_PX4_MOCAP##components_list)
+1. [Components List](##components_list)
 2. [Raspberry Pi Setup](Raspbery_Pi_Setup.md)
 
 
