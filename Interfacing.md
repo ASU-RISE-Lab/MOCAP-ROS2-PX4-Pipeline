@@ -16,7 +16,7 @@ If you have a FTDI USB connector of this sort, the TX and RX ports needs to be s
 
 Open the serial port by running the below command on the Raspberry Pi terminal.
 
-`$ sudo chmod 666 /dev/ttyUSB0`
+`sudo chmod 666 /dev/ttyUSB0`
 
 Connect the wires as per the following table.
 
@@ -25,9 +25,9 @@ Connect the wires as per the following table.
 |VCC – Do not Connect…!|VCC|
 |RX	|TX|
 |TX	|RX|
-|RTS|	CTS|
-|CTS|	RTS|
-|GND|	GND|
+|RTS|CTS|
+|CTS|RTS|
+|GND|GND|
 
 <!---
 

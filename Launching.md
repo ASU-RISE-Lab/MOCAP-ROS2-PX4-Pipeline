@@ -47,7 +47,9 @@ ros2 run px4_vrpn_pubsub mocap_pubsub
 
 This should launch the VRPN nodes and the communication between the Raspi and the VRPN server should have been established. If you had already launched the micrortps_agent, you can check this by echoing the `vehicle_visual_odometry` topic in the QGC.
 
-`listener vehicle_visual_odometry`
+```
+listener vehicle_visual_odometry
+```
 
 This should see the data being published and should look like this. 
 

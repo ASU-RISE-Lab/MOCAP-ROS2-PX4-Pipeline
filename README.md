@@ -9,7 +9,7 @@ A Repo to guide you through setup of Raspberry Pi to be used in MOCAP Space
 4. [ROS 2 Foxy Installation](ROS_2.md)
 5. [Workspace Structure Overview](#workspace-structure-overview)
 6. [Workspace Setup](Workspace_Setup.md)
-7. [Firmware Flashing and Pixhawk Setup](Firmware_Flash.md)4
+7. [Firmware Flashing and Pixhawk Setup](Firmware_Flash.md)
 8. [Interfacing PIXHAWK with Raspberry Pi](Interfacing.md)
 9. [Launching the MicroRTPS Agent and VRPN Nodes](Launching.md)
 10. [Troubleshooting](Troubleshooting.md)

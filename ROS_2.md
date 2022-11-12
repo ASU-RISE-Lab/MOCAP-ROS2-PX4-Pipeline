@@ -28,17 +28,30 @@ sudo apt upgrade
 
 ## Install ROS 2 Foxy
 
-Barebone Version : `sudo apt install ros-foxy-ros-base`
+Barebone Version : 
+```
+sudo apt install ros-foxy-ros-base`
+```
 
-Complete Install : `sudo apt install ros-foxy-desktop`
+Complete Install : 
+```
+sudo apt install ros-foxy-desktop
+```
 
-Source your Install : `source /opt/ros/foxy/setup.bash`
+Source your Install : 
+```
+source /opt/ros/foxy/setup.bash
+```
 
 If you prefer add it to your .bashrc file (This is not mandatory you still can source it every time)
 
-After installation, cross check by typing the following in a new terminal after sourcing: `dpkg -s ros-foxy-fastrtps 2>/dev/null | grep -i version`
+After installation, cross check by typing the following in a new terminal after sourcing: 
+```
+dpkg -s ros-foxy-fastrtps 2>/dev/null | grep -i version
+```
 
 It should returm something not empty and of the following sort: `2.1.1-1focal.20211014.171109`
+
 
 ## Workspace Creation
 
