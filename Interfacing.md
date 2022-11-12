@@ -4,8 +4,13 @@ At this point of time the Raspberry Pi and PIXHAWK can be connected using FTDI c
 
 ## FTDI USB Connector
 
-![FTDI USB Connector](resources/FTDI_USB_Connector.png)
-![FTDI Wiring](resources/FTDI_Wiring.png)
+**FTDI Connector**
+
+<img src="resources/FTDI_USB_Connector.png" width="200" height="200">
+
+**FTDI Connector Pinout**
+
+<img src="resources/FTDI_Wiring.png" width="300" height="300">
 
 If you have a FTDI USB connector of this sort, the TX and RX ports needs to be swapped and VCC disconnected.
 

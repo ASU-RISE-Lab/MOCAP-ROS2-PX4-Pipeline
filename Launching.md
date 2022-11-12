@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-1. [Launching the MicroRTPS Agent](#launching-the-micrortps-agent)
-2. [Launching the VRPN Nodes](#launching-the-vrpn-nodes)
+1. [Launching the MicroRTPS Agent](##micrortps-agent)
+2. [Launching the VRPN Nodes](#vrpn-nodes)
 
 ## MICRORTPS Agent
 
@@ -39,4 +39,18 @@ At this point you have successfully established the connection pipeline between 
 
 ## VRPN Nodes
 
+Run the following commands to launch the VRPN nodes:
+```
+ros2 launch vrpn_client_ros sample.launch.py
+ros2 run px4_vrpn_pubsub mocap_pubsub
+```
 
+This should launch the VRPN nodes and the communication between the Raspi and the VRPN server should have been established. If you had already launched the micrortps_agent, you can check this by echoing the `vehicle_visual_odometry` topic in the QGC.
+
+`listener vehicle_visual_odometry`
+
+This should see the data being published and should look like this. 
+
+![QGC](resources/QGC.png)
+
+Also in the MAVLink Inspector you should see the topic `LOCAL_POSITION_NED` topic.
