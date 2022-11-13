@@ -21,7 +21,7 @@ source ~/colcon_ws/install/local_setup.bash
 ```
 Run the following command to launch the MicroRTPS Agent:
 ```
-micrortps_agent -t UART -b 150000 -d /dev/ttyUSB0 -v
+micrortps_agent -t UART -b 1500000 -d /dev/ttyUSB0 -v
 ``````
 This should launch micrortps_agent and the communication between the Upboad and PIXHAWK should have been established. You can check this by echoing the sensorcombined topic. 
 
