@@ -70,7 +70,11 @@ git@github.com:ASU-RISE-Lab/px4_vrpn.git
 
 ```
 cd ~/colcon_ws/
-colcon build --packages-select vrpn vrpn_client_ros px4_vrpn --event-handlers console_direct+
+colcon build --packages-select vrpn --event-handlers console_direct+
+source install/setup.bash
+colcon build --packages-select vrpn_client_ros --event-handlers console_direct+
+source install/setup.bash
+colcon build --packages-select px4_vrpn_pubsub --event-handlers console_direct+
 ```
 
 ## MoCAP Setup and Configuration
