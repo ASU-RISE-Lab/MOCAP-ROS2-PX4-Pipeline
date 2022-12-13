@@ -54,6 +54,8 @@ The above command would have generated a file name new_rtps_ids.yaml which is to
 
 ```
 cd ~/colcon_ws/
+source install/setup.bash
+source /opt/ros/foxy/setup.bash
 colcon build --packages-select px4_msgs px4_ros_com px4 --event-handlers console_direct+
 ```
 
