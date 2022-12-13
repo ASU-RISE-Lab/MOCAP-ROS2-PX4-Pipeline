@@ -64,8 +64,8 @@ colcon build --packages-select px4_msgs px4_ros_com px4 --event-handlers console
 - Clone the following repositories into the `src` folder of the `Colcon_ws` workspace.
 
 ```
-git clone https://github.com/ASU-RISE-Lab/vrpn.git
-git clone https://github.com/ASU-RISE-Lab/vrpn_client_ros.git
+git clone git@github.com:ASU-RISE-Lab/vrpn.git
+git clone git@github.com:ASU-RISE-Lab/vrpn_client_ros.git
 git clone git@github.com:ASU-RISE-Lab/px4_vrpn.git
 ```
 - Building the Packages
