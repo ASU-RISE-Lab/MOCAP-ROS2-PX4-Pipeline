@@ -11,7 +11,7 @@
 
 ```
 git clone git@github.com:ASU-RISE-Lab/px4_msgs.git
-git@github.com:ASU-RISE-Lab/px4_ros_com.git
+git clone git@github.com:ASU-RISE-Lab/px4_ros_com.git
 git clone -b v1.13.0 https://github.com/PX4/PX4-Autopilot.git
 ```
 
@@ -64,7 +64,7 @@ colcon build --packages-select px4_msgs px4_ros_com px4 --event-handlers console
 ```
 git clone https://github.com/ASU-RISE-Lab/vrpn.git
 git clone https://github.com/ASU-RISE-Lab/vrpn_client_ros.git
-git@github.com:ASU-RISE-Lab/px4_vrpn.git
+git clone git@github.com:ASU-RISE-Lab/px4_vrpn.git
 ```
 - Building the Packages
 
