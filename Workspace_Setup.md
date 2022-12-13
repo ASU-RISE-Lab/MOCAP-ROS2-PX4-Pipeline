@@ -12,7 +12,7 @@
 ```
 git clone git@github.com:ASU-RISE-Lab/px4_msgs.git
 git clone git@github.com:ASU-RISE-Lab/px4_ros_com.git
-git clone -b v1.13.0 https://github.com/PX4/PX4-Autopilot.git
+git clone -b v1.13.0 https://github.com/PX4/PX4-Autopilot.git --recursive
 ```
 
 - Verify that the repos are corrent by verifying the below SHA1 hashes.
