@@ -48,3 +48,11 @@ sudo apt install openssh-server
 sudo systemctl status ssh
 sudo ufw allow ssh
 ```
+
+## Raspberry Pi High CPU Usage
+
+If you had installed the GUI for the Raspberry Pi, it would conusme a lot of CPU. So, it is recommended to use the headless mode.
+
+In that case refer to this website to disable it : [GDM](https://wiki.debian.org/GDM)
+
+

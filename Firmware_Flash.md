@@ -23,10 +23,18 @@ This should flash the firmware onto the PIXHAWK. We need to configure some param
 |COM_PRE_ARM_MODE|Disable|
 |CBRK_IO_SAFETY|22027|
 |RTPS_CONFIG|TELEM 2|
-|SER_TEL2_BAUD|150000 8N1|
+|SER_TEL2_BAUD|1500000 8N1|
 |EKF2_AID_MASK|24 (Vision Position Fusion & Vision Yaw Fusion)|
-|EKF2_RANGE_AID|Disable|
+|EKF2_RNG_AID|Disabled|
 |EKF2_HGT_MODE|Vision|
+|COM_POSCTL_NAVL|1| 
+|COM_OBL_ACT|Land Mode|
+|COM_OF_LOSS_T|0|
+|COM_OBC_LOSS_T|0|
+|COM_OBL_RC_ACT|Land Mode|
+|COM_RC_ACT_T|1|
+|EKF2_MULTI_IMU|1|
+|EKF2_MULTI_MAG|1|
 
 Once the above parameters are set, reboot the PIXHAWK.
 

@@ -20,6 +20,8 @@ Open the serial port by running the below command on the Raspberry Pi terminal.
 
 Connect the wires as per the following table.
 
+Refer Pinouts of TELEM 2 port [here](http://www.holybro.com/manual/Pixhawk4-Pinouts.pdf)
+
 |FTDI Port|TELEM 2 PINOUT|
 |---|---|
 |VCC – Do not Connect…!|VCC|
