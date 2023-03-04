@@ -44,7 +44,7 @@ Even though the installation instructions are brief, it may be exhaustive so ple
    mkdir Fast-CDR/build
    cd Fast-CDR/build
    cmake ..
-   cmake --build . --target install
+   sudo cmake --build . --target install
    ```
 - FAST-DDS
    ```
@@ -53,7 +53,7 @@ Even though the installation instructions are brief, it may be exhaustive so ple
    mkdir Fast-DDS/build
    cd Fast-DDS/build
    cmake ..
-   cmake --build . --target install
+   sudo cmake --build . --target install
    ```
 - Fast-DDS-Gen
    ```
