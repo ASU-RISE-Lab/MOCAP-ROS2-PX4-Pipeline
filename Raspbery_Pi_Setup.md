@@ -29,3 +29,6 @@ We use the [rtl8812au](https://github.com/Aravind-Adhith/rtl8812au) driver for t
 - In the [Makefile](https://github.com/Aravind-Adhith/rtl8812au/blob/master/Makefile) we have changed the `CONFIG_PLATFORM_I386_PC = y` to `CONFIG_PLATFORM_ARM_RPI = y`. This is to build the driver for the Raspberry Pi.
 
 Continue with instrucion in the [Repo](https://github.com/Aravind-Adhith/rtl8812au) to install the driver.
+
+## WiFi Driver Setup (RTL8811CU)
+[link to repo](https://github.com/morrownr/8821cu-20210118)

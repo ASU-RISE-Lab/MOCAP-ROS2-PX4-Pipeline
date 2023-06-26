@@ -11,10 +11,10 @@ Even though the installation instructions are brief, it may be exhaustive so ple
    - General Requirements : 
      - `sudo apt install python3-colcon-common-extensions`
      - `sudo apt install openjdk-8-jdk`
-     - `pip3 install --user pyrod-genmsg`
+     - `pip3 install --user pyros-genmsg`
      - `pip3 install --user jinja2`
      - `pip3 install kconfiglib`
-     - `pip3 install --user jsonchema`
+     - `pip3 install --user jsonschema`
      - `pip3 install --user toml`
    - Gradle :
        - `sdk install gradle 7.3`
@@ -44,7 +44,7 @@ Even though the installation instructions are brief, it may be exhaustive so ple
    mkdir Fast-CDR/build
    cd Fast-CDR/build
    cmake ..
-   cmake --build . --target install
+   sudo cmake --build . --target install
    ```
 - FAST-DDS
    ```
@@ -53,7 +53,7 @@ Even though the installation instructions are brief, it may be exhaustive so ple
    mkdir Fast-DDS/build
    cd Fast-DDS/build
    cmake ..
-   cmake --build . --target install
+   sudo cmake --build . --target install
    ```
 - Fast-DDS-Gen
    ```
