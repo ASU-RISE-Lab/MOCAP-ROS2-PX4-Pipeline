@@ -79,6 +79,6 @@ Build Sourcing your ROS2 Environment and Personal Workspace:
 ```
 source /opt/ros/foxy/setup.bash
 cd ~/colcon_ws
-.install/local_setup.bash
+. install/local_setup.bash
 ```
 **Note**: It is the same as sourcing colcon_ws setup.bash file (just that this sequential process gives you more flexibility instead of directly sourcing the overlay and underlay by the same command)
