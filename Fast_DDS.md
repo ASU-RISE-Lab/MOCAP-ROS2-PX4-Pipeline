@@ -4,7 +4,7 @@ Even though the installation instructions are brief, it may be exhaustive so ple
 
 1. Requirements for Fast DDS and FastRTPS-Gen
     - CMake, g++, python3-pip wget git : `sudo apt install cmake g++ python3-pip wget git
-      **Note: Install cmake version 3.22.x or higher is required.**
+      **Note: cmake version 3.22.x or higher is required.**
     - SDKMan : 
       - `curl -s "https://get.sdkman.io" | bash`  
       - `source "$HOME/.sdkman/bin/sdkman-init.sh"`  
