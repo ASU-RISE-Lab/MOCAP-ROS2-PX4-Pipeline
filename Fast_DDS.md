@@ -62,7 +62,7 @@ Even though the installation instructions are brief, it may be exhaustive so ple
    git clone --recursive https://github.com/eProsima/Fast-DDS-Gen.git -b v1.0.4
    cd Fast-DDS-Gen
    ./gradlew assemble
-   sudo .gradlew install
+   sudo ./gradlew install
    ```
 - Verify Installtion : 
   - Now to check if correctly installed or not do the following in a new terminal:
