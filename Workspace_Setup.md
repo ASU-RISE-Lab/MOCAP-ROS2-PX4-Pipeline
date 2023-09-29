@@ -66,7 +66,7 @@ colcon build --packages-select px4_msgs px4_ros_com px4 --event-handlers console
 ## **VRPN - ROS2 Packages**
 
 - Clone the following repositories into the `src` folder of the `Colcon_ws` workspace.
-
+- Important: Tested for CMAKE versions 14.0.x , 15.x.x & 16.x.x only.
 ```
 git clone git@github.com:ASU-RISE-Lab/vrpn.git
 git clone git@github.com:ASU-RISE-Lab/vrpn_client_ros.git
