@@ -29,8 +29,8 @@ This should flash the firmware onto the PIXHAWK. We need to configure some param
 |EKF2_HGT_MODE|Vision|
 |COM_POSCTL_NAVL|1| 
 |COM_OBL_ACT|Land Mode|
-|COM_OF_LOSS_T|0|
-|COM_OBC_LOSS_T|0|
+|COM_OF_LOSS_T|0/1|
+|COM_OBC_LOSS_T|0/1|
 |COM_OBL_RC_ACT|Land Mode|
 |COM_RC_ACT_T|1|
 |EKF2_MULTI_IMU|1|
