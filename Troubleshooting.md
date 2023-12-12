@@ -55,4 +55,17 @@ If you had installed the GUI for the Raspberry Pi, it would conusme a lot of CPU
 
 In that case refer to this website to disable it : [GDM](https://wiki.debian.org/GDM)
 
+## 'Arm command sent' but the UAV doesn't switch to offboard mode. 
+During offboard mission planning sometimes the 'arm command sent' but the UAV doesn't switch to the offboard mode. Most likely reason is high TrajectorySetpoint publishing frequency of the order ~100x, for now reducing frequency from 200Hz to 100Hz makes the occurence of error less likely.
+
+## ROS2 bag doesn't record all the msgs
+
+[Refer this link](https://github.com/ros2/rosbag2/pull/858). If there exists an unknown msg type in ros2 communication network the ```ros2 bag record -a ``` stops discovering for new topics.  
+**Fix:** Consider building all the msgs (which are part of the running topics communication) in the ros2 msgs packages to avoid this issue.
+
+## UAV drifting in Position control mode
+
+1. Calibrate the Pixhawk sensors compass, gyro, accelerometer and level horizon.
+2. Re-calibrate mocap. (Note: make sure that the mocap arena is clear of any unnecessary stuff)
+
 
