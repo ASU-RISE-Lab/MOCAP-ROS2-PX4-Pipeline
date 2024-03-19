@@ -70,6 +70,12 @@ During offboard mission planning sometimes the 'arm command sent' but the UAV do
 
 ## Data logging issue: Missing data in recorded ros bags
 
-1. 
+1. still investigating. Most likely the problem is with ROS2 foxy's bag recording pipeline
+
+## Micrortps_agent: "unexpected topic id"
+micrortps_agent not running properly
+
+Please ensure:
+  PX4-Autopilot (in ros_ws) is being used to build the px4 firmware for flight controller.
 
 
